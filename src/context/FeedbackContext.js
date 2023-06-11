@@ -60,7 +60,7 @@ export const FeedbackProvider = ({children}) => {
 
             await fetch(`/feedback/${id}`, {method: 'DELETE'})
 
-            setFeedback(feedback.filter((item) => item.id != id))
+            setFeedback(feedback.filter((item) => item.id !== id))
         }
     }
     //Add feedback
