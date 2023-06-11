@@ -1,3 +1,3 @@
 # Feedback App
 
-This application allows user to add, update and delete feedback. It uses a mock REST api with json-server.
+This is a react application that allows users to give feedback with a numbered rating. The users can add, delete, and update feedback.
